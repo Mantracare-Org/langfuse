@@ -21,7 +21,10 @@ const cloudAllPlansEntitlements: Entitlement[] = [
   "trace-deletion",
 ];
 
-const selfHostedAllPlansEntitlements: Entitlement[] = ["trace-deletion"];
+const selfHostedAllPlansEntitlements: Entitlement[] = [
+  "trace-deletion",
+  "prompt-protected-labels",
+];
 
 // Entitlement Limits: Limits on the number of resources that can be created/used
 const entitlementLimits = [
